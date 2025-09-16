@@ -30,3 +30,6 @@ python patch_attack.py
 * 在左上角生成 56x56 的对抗补丁。
 * 保存对抗样本到 adv_examples/ 目录，文件名格式：
 
+```
+adv_{original_class}_{target_class}_{index}.png
+```
