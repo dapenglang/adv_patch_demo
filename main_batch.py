@@ -1,4 +1,7 @@
 # main_batch.py
+# 文档说明：此文件用于执行批量对抗补丁攻击的主程序
+# 撰写人：Bruce lang
+# 日期：2024-07-15
 import torch
 from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms, utils
